@@ -40,90 +40,45 @@
 					</div>	
 				</div>
 			</header>
+			<div class="profile"></div>
 			<div class="center about_container">
 				<div class="text about">
 					<h1>Hey I'm Valentin - A Full Stack Developper who love design  </h1>
 					<span class="littleline"></span>
-					<p>As an art director, designer and front-end developer, I have been building interactive experiences, creating brands and designing print materials for over eight years. I’m a fan of structure and simplicity in both design and code; organization and consistency are very important to me.</p>
-					<p>As an art director, designer and front-end developer, I have been building interactive experiences, creating brands and designing print materials for over eight years. I’m a fan of structure and simplicity in both design and code; organization and consistency are very important to me.</p>
-					<p>As an art director, designer and front-end developer, I have been building interactive experiences, creating brands and designing print materials for over eight years. I’m a fan of structure and simplicity in both design and code; organization and consistency are very important to me.</p>
+					<p>Niveau intermédiaire dans les langages web (Javascript/Jquery, Html 5 et CSS3), 
+					Niveau intermédiaire supérieur en  c#, dot net, c++ . Adepte de la méthode Merise et POO.
+					Travailleur persistant et diligent avec une capacité d’intérargir avec les clients et les membres de l’équipe</p>
+					<p>Niveau intermédiaire dans les langages web (Javascript/Jquery, Html 5 et CSS3), 
+					Niveau intermédiaire supérieur en  c#, dot net, c++ . Adepte de la méthode Merise et POO.
+					Travailleur persistant et diligent avec une capacité d’intérargir avec les clients et les membres de l’équipe</p>
+					<p>Niveau intermédiaire dans les langages web (Javascript/Jquery, Html 5 et CSS3), 
+					Niveau intermédiaire supérieur en  c#, dot net, c++ . Adepte de la méthode Merise et POO.
+					Travailleur persistant et diligent avec une capacité d’intérargir avec les clients et les membres de l’équipe</p>
 				</div>
 			</div>
-			<div class="capacity3d">
-				<div class="coder">
-					<h5 class="fc-r9">Part Coder</h5>
-					<ul>
-						<li id="codrli"><span>Full Stack Development</span></li>
-						<li id="codrli"><span>C/.Net</span></li>
-						<li id="codrli"><span>Javscript</span></li>
-						<li id="codrli"><span>Html</span></li>
-						<li id="codrli"><span>CSS</span></li>
-					</ul>
+			</section>
+			<section class="sec-interest">
+			<div class="container-a">
+				<div class="info-pri">
+				<div class="info">
+						<h5>Tools</h5>
+						<span class="line_info"></span></span><span class="line_info2"></span>
+						<h1 class="fc-r8">Visual studio 2013/2015</h1>
 				</div>
-				<div class="piechart">
-					<img id="chart" src="assets/pics/piecharts.png">
-				</div>
-				<div class="designer">
-					<h5 class="fc-r9">Part Designer</h5>
-					<ul>
-						<li id="codrli"><span>User Interface Design</span></li>
-						<li id="codrli"><span>User Experience Design</span></li>
-						<li id="codrli"><span>Interaction Design</span></li>
-						<li id="codrli"><span>Assets Modeling</span></li>
-					</ul>
-				</div>
+				<div class="info_right">
+						<h5>Github</h5>
+						<span class="line_info"></span></span><span class="line_info2"></span>
+						<a href="https://github.com/Valentin-Bonnard" target="_blank">github.com/ValentinBonnard</a>
+					</div>
 			</div>
+			
+			
 		</section>
-		<section class="sec-interest">
-			<div class="capacity3d">
-				<div class="animateblock left">
-					<img id="interest" src="assets/pics/Sans-titre-1.png">
-					<script type="text/javascript">
-						$(function(){
-							var $elems = $('.animateblock');
-							var winheight = $(window).height();
-							var fullheight = $(document).height();
-							
-							$(window).scroll(function(){
-								animate_elems();
-							});
-							
-							function animate_elems() {
-    wintop = $(window).scrollTop(); // calculate distance from top of window
-    
-    // loop through each item to check when it animates
-    $elems.each(function(){
-    	$elm = $(this);
-    	
-      if($elm.hasClass('animated')) { return true; } // if already animated skip to the next item
-      
-      topcoords = $elm.offset().top; // element's distance from top of page in pixels
-      
-      if(wintop > (topcoords - (winheight*.75))) {
-        // animate when top of the window is 3/4 above the element
-        $elm.addClass('animated');
-    }
-});
-  } // end animate_elems()
-});
-</script>
-</div>
-<div class="interst">
-	<h5 class="fc-r9">Part Designer</h5>
-	<ul>
-		<li id="codrli"><span>User Interface Design</span></li>
-		<li id="codrli"><span>User Experience Design</span></li>
-		<li id="codrli"><span>Interaction Design</span></li>
-		<li id="codrli"><span>Assets Modeling</span></li>
-	</ul>
-</div>
-</div>
-</section>
 <footer>
-	<div id="footer-info">
-		<h1 class="fc-r6">© 2016 Bonnard Valentin</h1>
-	</div>
-</footer>
+			<div id="footer-info">
+				<h1 class="fc-r6">© 2016 Bonnard Valentin</h1>
+			</div>
+		</footer>
 <script type="text/javascript">
 	$('.open-overlay').click(function() {
 		var overlay_navigation = $('.overlay-navigation'),

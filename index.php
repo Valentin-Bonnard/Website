@@ -10,6 +10,7 @@ include_once 'common.php'
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <link rel="icon" type="image/png" href="assets/pics/lg.png" />
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
@@ -49,7 +50,7 @@ include_once 'common.php'
         <div class="text">
             <h1 class="fc-r1">Bonnard Valentin</h1>
             <span class="littleline"></span>
-            <h1 class="fc-r2">Developer + Designer</h1>
+            <h1 class="fc-r2">Developer</h1>
         </div>
     </div>
     <a class="arrow bounce" href="#recent_portfolio"></a>

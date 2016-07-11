@@ -54,7 +54,7 @@
 					<div class="info">
 						<h5>Tools</h5>
 						<span class="line_info"></span></span><span class="line_info2"></span>
-						<h1 class="fc-r7">Visual studio 2013/2015</h1>
+						<h1 class="fc-r8">Visual studio 2013/2015</h1>
 						<h1 class="fc-r8">Sublime Text 3</h1>
 						<h1 class="fc-r8">Photoshop/Illustrator</h1>
 						<h1 class="fc-r8">Blender</h1>
@@ -64,7 +64,7 @@
 					<div class="info_right">
 						<h5>Framework and other</h5>
 						<span class="line_info"></span></span><span class="line_info2"></span>
-						<h1 class="fc-r7">Jquery</h1>
+						<h1 class="fc-r8">Jquery</h1>
 						<h1 class="fc-r8">Node js</h1>
 						<h1 class="fc-r8">Mysql</h1>
 					</div>
@@ -75,7 +75,7 @@
 	</section>
 	<section class="circlessec" id="circlessec">
 		<div id="skills" class="skills">
-			<div class="container">
+			<div class="container_secondary">
 				<div class="skills-grids">
 					<div class="skill-section text-center">
 						<h1 class="fc-r5"><span> </span>Languages<span> </span><h1 class="fc-r5">
