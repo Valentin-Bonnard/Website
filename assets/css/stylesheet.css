@@ -757,8 +757,8 @@
 	  color:  #000;
 	  display: inline-block;
 	  margin-left: 40px;
-	}
 
+	}
 	.line{
 	  position: relative;
 	  width: 100%;
@@ -1004,8 +1004,8 @@
 	  animation: slide-in-nav-item 0.4s linear 1 .8s both;
 	}
 
-	.slide-in-nav-item-delay-4 {
 	  animation: slide-in-nav-item 0.4s linear 1 1s both;
+	.slide-in-nav-item-delay-4 {
 	}
 
 	.slide-in-nav-item-reverse {

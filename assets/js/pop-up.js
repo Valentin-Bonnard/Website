@@ -2,11 +2,11 @@
  * Created by Bonnard_Valentin on 22/05/2016.
  */
 
-var opener = document.getElementById("opener");
+var opener = document. getElementsByClassName("opener");
 
 opener.onclick = function() {
-    var trans_div = document.createElement("div"),
-        mail_form = document.getElementById("mail-form");
+    var trans_div = document.createElement("div");
+        
 
     trans_div.style.width = window.innerWidth + 'px';
     trans_div.style.height = window.innerHeight + 'px';
